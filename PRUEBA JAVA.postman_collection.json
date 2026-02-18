@@ -1,0 +1,58 @@
+{
+  "info": {
+    "_postman_id": "ac7417c4-d935-48a7-821a-2a261440c81d",
+    "name": "PRUEBA JAVA",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38908922"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/users",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users?sortedBy=name",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users?filter=name+co+user",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users/{id}",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/users/{id}",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
